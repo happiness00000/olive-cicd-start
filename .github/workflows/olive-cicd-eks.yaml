@@ -8,6 +8,8 @@ permissions:
 on:
   push:
     branches: ["name"]
+  pull_request:
+    branches: ["name"]
 jobs:
   verify_pipeline:
     environment: runner
